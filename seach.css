@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+.seach-input{
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+}
+.seach-input>input{
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 12px;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.seach-ul{
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+}
+.seach-ul>li{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #5e5e5e;
+    font-size: 12px;
+    color: #5e5e5e;
+    line-height: 20px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
